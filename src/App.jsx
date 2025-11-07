@@ -1,4 +1,5 @@
 import './App.css'
+import BookList from './books/BookList'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
         <a className="navbar-brand" href="/">Book Reactions</a>
       </nav>
       <p className="container">
-        Where you react to books.
+       <BookList />
+
       </p>
     </div>
   )
